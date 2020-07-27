@@ -1,11 +1,51 @@
-body {background-color: whitesmoke;}
+body {background-color: rgb(255, 255, 255);}
 
-#t1 {background-color: green;
-    font-size: 40px;
-    padding: 10px;
+#titulo {background-color: green;
+    text-align: left;
+    font-size: 45px;
+    padding: 5px;
     color: honeydew;
-    border: 3px solid rgb(8, 97, 8);}
-#t2 {font-size: 35px;
+    border: 3px solid rgb(8, 97, 8);
+    font-family: initial;}
+
+
+#t2 {font-size: 25px;
+    padding: 3px;
+    background-color: rgba(121, 121, 121, 0.219);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;}
+
+
+#t3{font-size: 25px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    background-color: green;
+    border: 3px solid rgb(8, 97, 8);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
-#educação {font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+#grafico1 {}
+
+#grafico2  {position: absolute;
+        left: 690;
+        top: ;}
+
+#slogan {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 1059px ;
+    top: 39px;
+    color: white;}
+
+#logotipo {position: absolute;
+    top: -2px;
+    left: 590px; }
+
+#educação {font-size: 25px;
+        text-align: justify;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+#textoeducaçãonobrasil {font-size: 25;
+        text-align: justify;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
