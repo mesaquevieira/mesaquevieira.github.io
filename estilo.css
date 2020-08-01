@@ -1,51 +1,200 @@
-body {background-color: rgb(255, 255, 255);}
+body {background-color: rgb(99, 99, 99);
 
-#titulo {background-color: green;
-    text-align: left;
-    font-size: 45px;
-    padding: 5px;
+}
+
+h1 {
+    position: absolute;
+    top: -70;
+    left: 290 ;
+    font-size: 65px;
+    padding: 60px;
+    padding-right: 15;
+    padding-bottom: 0;
     color: honeydew;
-    border: 3px solid rgb(8, 97, 8);
-    font-family: initial;}
+    border-bottom: solid 2px white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
-#t2 {font-size: 25px;
+h2 {font-size: 25px;
     padding: 3px;
-    background-color: rgba(121, 121, 121, 0.219);
+    margin-left: 237;
+    margin-right: -8;
+    color: white;
+    background-color: rgba(37, 86, 109, 0.74);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;}
+    text-align: center;
+    margin-top: -15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: solid 1px rgb(37, 86, 109);
+    border-top: 1px rgb(37, 86, 109);
+}
 
 
-#t3{font-size: 25px;
+h3 {font-size: 25px;
     color: white;
     padding: 3px;
     text-align: center;
+    margin-top: 50px;
     background-color: green;
-    border: 3px solid rgb(8, 97, 8);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-#grafico1 {}
+#grafico1 {margin-top:30;}
+#grafico2 {margin-top:30;}
 
-#grafico2  {position: absolute;
-        left: 690;
-        top: ;}
-
-#slogan {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+#slogan {font-family: 'Segoe UI',
     'Open Sans', 'Helvetica Neue', sans-serif;
     position: absolute;
-    left: 1059px ;
-    top: 39px;
-    color: white;}
+    left: 400px ;
+    top: 100px;
+    color: white;
+}
 
 #logotipo {position: absolute;
-    top: -2px;
-    left: 590px; }
+    top: 25px;
+    left: 270px;
 
-#educação {font-size: 25px;
+}
+
+
+#espaco {text-indent: 40px;}
+
+#conteudo {
+        background-color: rgb(255, 255, 255);
+        width: 17cm;
+        height: auto;     
+        font-size: 22px;
+        padding-left: 3cm;
+        padding-right: 2cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        margin-left: 330;
+        margin-right: 80;
         text-align: justify;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        float: center;
+        text-indent: 4px;
+}
 
-#textoeducaçãonobrasil {font-size: 25;
-        text-align: justify;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.capa {background: url(imagens/meninoempapel.jpg);
+        width: 1019;
+        height: 170;
+        position: relative;
+        top: -15;
+        left:  236;
+        z-index: 10;
+        border-bottom: 1px solid rgb(37, 86, 109);
 
+}
+
+
+.botãoods {border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        color: rgb(224, 224, 224);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        padding-right: 45px;
+        padding-left: 36px;       
+        background-color: rgba(0, 0, 0, 0,);
+        left: -982;
+        top: 300px ;
+        position: fixed;
+        left: 0;
+        top: 70;}
+
+        #b1 {position: fixed;
+        top: 109px;
+        padding-right:146px ;}
+
+        #b2 {position: fixed;
+        top: 148px;
+        padding-right:42px ;}
+
+        #b3 {position: fixed;
+        top: 187px;
+        padding-right:67px ;}
+
+        #b4 {position: fixed;
+        top: 226;
+        padding-right:101px ;}
+
+        #b5 {position: fixed;
+        top: 265;
+        padding-right:126px ;}
+
+        #b6 {position: fixed;
+        top: 304;
+        padding-right:114px ;}
+
+        #b7 {position: fixed;
+        top: 343;
+        padding-right:125px ;}
+
+        #b8 {position: fixed;
+        top:382;
+        padding-right:100px ;
+
+        }
+
+.links {text-decoration: none;
+color: white;}
+
+.ODS13 {
+        font-size: 45;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        left: 965;
+        bottom: 8;
+        text-orientation: sideways-right;
+        writing-mode: vertical-rl;}
+
+        .botãoods:hover {background-color: rgba(0, 0, 0, 0.055)}
+
+.BIBLIOTECA {
+        border-right: solid 01px rgb(37, 86, 109);
+        font-size: 25px;
+        text-align: center;
+        padding: 28;
+        padding-bottom: 600;
+        background-color: rgba(0, 111, 145, 0.445);
+        color: white;
+        text-shadow: black;
+        position: fixed;
+        left: -5 ;
+        top: 0;
+        z-index: 11;      
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        float: left;       
+}
+
+.section {position: fixed;
+        overflow: hidden;
+        right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+        min-height: 100%;
+        z-index: -1;
+        background-size: cover;
+        background: url(imagens/nuvens.jpg) no-repeat;
+}
+
+footer {background: rgba(0, 111, 145, 0.445);
+        width: 1019;
+        height: 170;
+        position: relative;
+        top: -15;
+        left:  236;    
+        border: solid 1px rgba(0, 111, 145, 0.445);
+        margin-bottom: -130;
+        
+        }
+        
+
+
+               
