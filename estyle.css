@@ -14,12 +14,14 @@ background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 color: white;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
 width: 918;
 margin-left: -80;
 border-top: solid 20px rgba(235, 235, 235, 0.411);
 border-bottom: solid 20px rgba(235, 235, 235, 0.411);}
+
+
 
 .text-parallax {text-align: center;
 font-size: 40;
@@ -27,12 +29,24 @@ font-family: 'Amiko', sans-serif;
 
 text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;}
 
+#text-parallax-pesquisa { font-size: 30px;
+        text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;
+margin-left: 4%;
+margin-right: 4%;}
+
+#text-parallax-souterra { font-size: 19px;
+        text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;
+margin-left: 4%;
+margin-right: 4%;
+text-align: center;}
+
 #img-header2 {background-image: url(imagens/parallax/praia3.jpg);}
 #img-header3 {background-image: url(imagens/parallax/industria.png);}
-#img-header4 {background-image: url(imagens/parallax/oquefazer.png);}
+#img-header4 {background-image: url(imagens/parallax/oquefazer.jpg);}
 #img-header5 {background-image: url(imagens/parallax/professor.jpg);}
-#img-header6 {background-image: url(imagens/parallax/livros.png);}
+#img-header6 {background-image: url(imagens/parallax/livros.jpg);}
 #img-header7 {background-image: url(imagens/parallax/souterra.png);}
+#img-header8 {background-image: url(imagens/parallax/souterra.png);}
 
 
 
@@ -76,10 +90,41 @@ text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;}
         margin-right: 52;
         color: honeydew;
         font-family: 'Amiko', sans-serif;
-        border-left: solid 1px rgb(37, 86, 109);
-        border-right: solid 1px rgb(37, 86, 109);
-        border-bottom: solid 1px rgba(37, 86, 109);
-}
+        border: solid 1px rgb(13, 54, 73);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px ;
+        text-shadow: rgba(0, 0, 0, 0.603) 2px 2px 2px;}
+
+#ODS13 {transform: rotate(90deg);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin-top: -153 ;
+        margin-left: 148;
+        padding-left: 20;
+        float: right;
+        }
+
+#link-ods {text-decoration: none;
+color: rgb(50, 78, 110);}
+
+
+#slogan2 { 
+font-size: 15px;
+visibility: hidden;
+margin-top: -30;
+display: inline-block;}
+
+h2 { float: left;
+        text-shadow: rgba(0, 0, 0, 0.438) 1px 1px 1px;
+        color: white;
+        border-top: solid 2px white;
+        font-family:'Amiko', sans-serif; 
+        font-size: 15px;
+        margin-top: -105;
+        margin-left: 580;
+        padding-top: 3px;
+        padding-left: 60px;
+        padding-right: 60px;}
 
 /*--BARRA DE MENU--*/
 
@@ -94,21 +139,16 @@ text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;}
         margin-top: -600;
         }
         
-#menu-border {border-left: solid 1px rgba(255, 255, 255, 0.24);
-        border-right: solid 1px rgba(255, 255, 255, 0.24);}
 
 .menu {margin-left: 19.9%;
         position: absolute;
-        margin-top: 153px;
-        border-spacing: 1px;
+        margin-top: 151px;
         background-color: rgba(37, 86, 109, 0.74);
-        border: solid 1px rgb(37, 86, 109);
-        border-bottom-left-radius:15px ;
-        border-bottom-right-radius:15px ;
-        padding-top: 6;}
+        border: solid 1px rgb(39, 89, 112);
+        padding-top: 6;
+        visibility: hidden;}
 
-#radius-left {border-bottom-left-radius: 15px;}
-#radius-right {border-bottom-right-radius: 15px;}
+
         
         
 
@@ -119,21 +159,6 @@ text-shadow: rgba(0, 0, 0, 0.774) 2px 2px 2px;}
         color: white;}
 
 
-
-
-
-
-
-
-/*--TITULOS H3--*/
-h3 {font-size: 25px;
-    color: white;
-    padding: 3px;
-    text-align: center;
-    margin-top: 50px;
-    background-color: green;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 /*--POSICIONAMENTO GRÁFICOS--*/
 #grafico1 {margin-top:30;}
@@ -157,6 +182,9 @@ h3 {font-size: 25px;
 .imagens-left {float: right;
                 padding-right: 2%;
                 padding-top: 1%;}
+
+.logotipo {float: left;
+        padding-right: 2%;}
 
 
 
@@ -208,9 +236,13 @@ h3 {font-size: 25px;
                 border-radius: 30px;
                 padding-left: 10px;
                 padding-right: 10px;
-                font-size: 18px;}
+                font-size: 18px;
+                font-family: 'Amiko', sans-serif;}
 
-        #frase-autoral {}
+        #capitular-autoral {color: teal;}
+
+        #frase-autoral { color: rgb(26, 77, 90);
+        text-align: center;}
 
         #souterra { font-size: 40px;
                 color: black;
@@ -222,6 +254,8 @@ h3 {font-size: 25px;
                         font-family: 'Amiko', sans-serif;
                         right: 200
                 ;}
+        
+        #video-border {border: solid 5px rgb(231, 231, 231);}
 
         
 
@@ -241,7 +275,8 @@ h3 {font-size: 25px;
                 padding-left: 10px;
                 padding-right: 10px;
                 font-size: 17px;
-                text-align: center;}
+                text-align: center;
+                font-family: 'Amiko', sans-serif;}
 
         
         
@@ -250,7 +285,7 @@ h3 {font-size: 25px;
         
 
         .img-discussores {border-radius: 50%;
-                border: 1px solid rgb(236, 236, 236);
+                border: 1px solid rgb(219, 219, 219);
                 
                 
         }
@@ -260,15 +295,15 @@ h3 {font-size: 25px;
                 display: inline-block;
                 text-align: left;}
 
-                #box1 {background-color: rgb(200, 222, 240);
+                #box1 {background-color: rgb(215, 228, 238);
                         padding: 3%;
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);}
+                        border: solid 2px rgb(39, 39, 39);}
          
                  #box2 { background-color: rgb(232, 222, 236);
                          padding: 3%;
                          border-radius: 8px;
-                         border: solid 2px rgb(31, 88, 92);
+                         border: solid 2px rgb(39, 39, 39);
                          float: right;}
                  
         .bloco2 {width: 94%;
@@ -276,11 +311,11 @@ h3 {font-size: 25px;
                 display: inline-block;
                 text-align: left;}
 
-                 #box3 {background-color: rgb(163, 236, 173);
+                 #box3 {background-color: rgb(206, 238, 210);
                         padding: 3%;
-                        color: rgb(0, 51, 0);
+                        color: rgb(0, 0, 0);
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);
+                        border: solid 2px rgb(39, 39, 39);
                         margin-top: 40px;}
         
         .bloco3 {width: 40%;
@@ -288,11 +323,11 @@ h3 {font-size: 25px;
                 display: inline-block;
                 text-align: left;}
                 
-                #box4 {background-color: rgb(232, 222, 236);
+                #box4 {background-color: rgb(236, 230, 238);
                         padding: 3%;
-                        color: rgb(0, 51, 0);
+                        color: rgb(0, 0, 0);
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);
+                        border: solid 2px rgb(39, 39, 39);
                         margin-top: 40px;}
 
         .bloco4 {width: 40%;
@@ -300,11 +335,11 @@ h3 {font-size: 25px;
                 float: right;
                 text-align: left;   }
 
-                #box5 {background-color: rgb(238, 232, 176);
+                #box5 {background-color: rgb(238, 234, 197);
                         padding: 3%;
-                        color: rgb(0, 51, 0);
+                        color: rgb(0, 0, 0);
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);
+                        border: solid 2px rgb(39, 39, 39);
                         margin-top: 40px;}
 
         .bloco5 {width: 40%;
@@ -312,10 +347,10 @@ h3 {font-size: 25px;
                 display: inline-block;
                 text-align: left;}
 
-                #box6 {background-color: rgb(200, 222, 240);
+                #box6 {background-color: rgb(204, 223, 238);
                         padding: 3%;
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);
+                        border: solid 2px rgb(39, 39, 39);
                          margin-top: 40px;}
         
         .bloco6 {width: 94%;
@@ -325,9 +360,9 @@ h3 {font-size: 25px;
 
                         #box7 {background-color: rgb(163, 236, 173);
                         padding: 3%;
-                        color: rgb(0, 51, 0);
+                        color: rgb(0, 0, 0);
                         border-radius: 8px;
-                        border: solid 2px rgb(31, 88, 92);
+                        border: solid 2px rgb(39, 39, 39);
                         margin-top: 40px;}
 /*--------------------------------------------------------------------------------*/
 
@@ -343,7 +378,6 @@ h3 {font-size: 25px;
         background: url(imagens/back-biblioteca1.png);
         padding-top: 25;
         color: white;
-        text-shadow: black;
         position: fixed;
         left: -5 ;
         top: 0;
@@ -351,6 +385,7 @@ h3 {font-size: 25px;
         font-family: 'Amiko', sans-serif;      
 }
         .botão {border-bottom: solid 1px rgba(255, 255, 255, 0.24);
+                text-shadow: rgba(0, 0, 0, 0.438) 1px 1px 1px;
                 color: rgb(224, 224, 224);
                 font-family: 'Amiko', sans-serif;
                 font-size: 20px;
@@ -396,60 +431,134 @@ h3 {font-size: 25px;
                      top:382;
                      padding-right:136px;}
 
+                #b9 {position: fixed;
+                     top:420;
+                     padding-right:56px;}
+
+                     #b10 {position: fixed;
+                        top:456;
+                        padding-right:123px;}
+
                 
         
                 .links {text-decoration: none;
                         color: white;}
 
                 .botão:hover {background-color: rgba(247, 247, 247, 0.089)}
+
+footer {
+        font-family: 'Amiko', sans-serif; 
+        margin-left: 300;
+        font-size: 15;
+        color: rgb(253, 253, 253);
+        background-color: rgba(45, 96, 109, 0.596);
+        width: 60%;
+        margin-right: 4%;  
+        padding-left: 2cm;
+        padding-right: 2cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        margin-top: 30px;   
+        text-align: center;
+        float: right;
+        border-radius: 15px;
+        border: solid 5px rgba(233, 233, 233, 0.74)
+}
+
+.link-agradecimento {text-decoration: none;
+        color: rgb(0, 132, 255);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;}
 /*----------------------------------------------------------------------------*/
 
                 
 
 
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1000px) {
 
-        #titulo {font-size: 30;}
+#titulo {font-size: 30;}
 
-        .biblioteca {visibility: hidden;}
-
-        
-       #conteudo {margin: auto;
-                float: none;
-                width: auto;
-                font-size: 18;
-                margin-top: 40;
-                padding-left: 20px;
-                padding-right: 20px;}
+.biblioteca {visibility: hidden;}
 
 
-        .section {}
+#conteudo {margin: auto;
+float: none;
+width: auto;
+font-size: 15;
+margin-top: 40;
+padding-left: 20px;
+padding-right: 20px;}
 
-        #titulo {float: none;
-                margin: auto;
-                width: auto;}
+#text-parallax-pesquisa {font-size: 15px;}
 
-        .text-parallax {font-size: 19;}
 
-        ul {float: none;
-                margin: auto;
-                width: auto;}
-        
-        .header-site  {margin: auto;
-                width: auto;}
-        .header-site2 {margin: auto;
-                width: auto;}
-        .header-site3 {margin: auto;
-                width: auto;}
-        .header-site4 {margin: auto;
-                width: auto;}
-        .header-site5 {margin: auto;
-                width: auto;}
 
-                .menu {margin-top: 1;
-                        margin-left: -39;
-                position: sticky;}
+
+#titulo {float: none;
+margin: auto;
+width: auto;
+font-size: 30;
+text-shadow: rgba(0, 0, 0, 0.637) 1px 1px 1px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+border: unset;}
+
+
+#ODS13 {visibility: hidden;
+}
+
+h2 { float: right;
+visibility: hidden;
+
+}
+
+.text-parallax {font-size: 25px;}
+
+ul {float: none;
+margin: auto;
+width: auto;}
+
+.header-site  {margin: auto;
+width: auto;
+font-size: px;
+margin-left: -20px;
+margin-right: -20px;
+
+}
+
+
+
+#fogonaterra-icone  {padding-top: 25%;
+        padding-bottom: 25%;}
+
+#efeitoestufa-icone {padding-top:25% ;
+        padding-bottom:25% ;}
+
+.menu {margin-top: -1;
+margin-left: -40;
+position: sticky;
+top: 0;
+text-shadow: rgba(0, 0, 0, 0.637) 1px 1px 1px;
+background-color: rgba(36, 78, 88, 0.877) ;
+visibility: visible;
+}
+
+
+
+
+footer {margin: auto;
+float: none;
+width: auto;
+font-size: 15;
+margin-top: 20;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#slogan2 {visibility: visible ;}
 }
 
         
