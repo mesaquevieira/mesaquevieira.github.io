@@ -690,6 +690,12 @@ font-family: 'Amiko', sans-serif;
 visibility: visible;
 }
 
+.videos {width: 100%;
+    height: 45%;
+
+
+}
+
 .section-nuvens {
 position: fixed;
 overflow: hidden;
