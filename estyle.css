@@ -1,5 +1,5 @@
 body {
-background-color: rgb(255, 255, 255);
+background-color: rgb(46, 79, 130);
 margin: 0%
 }
 
@@ -65,7 +65,7 @@ background-image: url(imagens/parallax/oquefazer.jpg);
 background-image: url(imagens/parallax/professor.jpg);
 }
 #img-header6 {
-background-image: url(imagens/parallax/livros.jpg);
+background-image: url(imagens/parallax/educação.jpg);
 }
 #img-header7 {
 background-image: url(imagens/parallax/souterra.png);
@@ -116,7 +116,7 @@ text-shadow: rgba(0, 0, 0, 0.603) 2px 2px 2px;
 transform: rotate(90deg);
 font-family: Arial, Helvetica, sans-serif;
 font-size: 40px;
-margin-top: -153;
+margin-top: -165;
 margin-left: 148;
 padding-left: 20;
 float: right;
@@ -143,7 +143,7 @@ border-top: solid 2px white;
 font-family: 'Amiko', sans-serif;
 font-size: 15px;
 margin-top: -105;
-margin-left: 580;
+margin-left: 575;
 padding-top: 3px;
 padding-left: 60px;
 padding-right: 60px;
@@ -210,9 +210,9 @@ padding-left: 2%;
 }
 
 .imagens-left {
-float: right;
-padding-right: 2%;
-padding-top: 1%;
+ float: left;
+
+
 }
 
 .logotipo {
@@ -423,7 +423,7 @@ text-align: left;
 }
 
 #box7 {
-background-color: rgb(175, 231, 182);
+background-color: rgb(221, 248, 224);
 padding: 3%;
 color: rgb(0, 0, 0);
 border-radius: 8px;
@@ -632,6 +632,8 @@ width: auto;
 font-size: px;
 margin-left: -20px;
 margin-right: -20px;
+border-top: solid 20px rgba(235, 235, 235, 0.411);
+border-bottom: solid 20px rgba(235, 235, 235, 0.411);
 }
 
 #fogonaterra-icone {float: right;
@@ -699,5 +701,7 @@ z-index: -10;
 background-size: cover;
 background: url(imagens/nuvens.jpg) no-repeat;
 }
+
+
 
 }
